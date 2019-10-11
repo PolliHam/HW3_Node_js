@@ -45,7 +45,7 @@ const url = `mongodb+srv://user:1111@cluster0-gmvft.mongodb.net/test?retryWrites
 
 var odataServer = ODataServer(process.env.PORT || 3000).model(model);
 
-app.listen(3000, function(req , res){
+app.listen(process.env.PORT, function(req , res){
     console.log("Server is working on port 3000");
 });
 
