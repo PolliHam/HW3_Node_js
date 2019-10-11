@@ -1,0 +1,27 @@
+{
+  "name": "hw3_node_js",
+  "version": "1.0.0",
+  "description": "Node Homework 3",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PolliHam/HW3_Node_js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PolliHam/HW3_Node_js/issues"
+  },
+  "homepage": "https://github.com/PolliHam/HW3_Node_js#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^3.3.2",
+    "simple-odata-server": "^1.1.1",
+    "simple-odata-server-mongodb": "^1.0.0"
+  }
+}
