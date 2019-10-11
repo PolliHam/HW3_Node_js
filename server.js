@@ -17,6 +17,9 @@ var model = {
             },
             "name": {
                 "type": "Edm.String"
+            },     
+            "typeContibution": {
+                "type": "Edm.Int32"
             },
             "depositAmount": {
                 "type": "Edm.Int32"
