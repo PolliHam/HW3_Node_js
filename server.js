@@ -52,6 +52,7 @@ app.listen(process.env.PORT, function(req , res){
 app.use(cors());
 
 app.use("/", function (req, res) {
+    console.log(odataServer,req,res)
     odataServer.handle(req, res);
 });
 
